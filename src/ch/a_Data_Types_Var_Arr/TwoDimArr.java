@@ -5,7 +5,7 @@ public class TwoDimArr {
 	public static void main(String[] args) {
 
 //		multidimensional arrays are array of array.
-		int[][] twod = new int[3][4]; // 3 row and 4 colomn.
+		int[][] twod = new int[3][4]; // 3 row and 4 column.
 		int i, j, k = 0;
 
 //		Adding value in the 3 * 4 loop. Using for loop.
