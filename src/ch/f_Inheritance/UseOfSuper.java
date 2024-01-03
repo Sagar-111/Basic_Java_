@@ -13,6 +13,7 @@ class A {
 class B extends A {
 	int i = 20;
 
+	@Override
 	void method() {
 		System.out.println("Mehtod from sub");
 	}

@@ -4,12 +4,12 @@ public class UsingContinue {
 
 	int m;//Just to show package protected has triangular, blue sign.
 	public int n;//Just to show public modifier has green dot sign. And private member has red square sign.
-	
+
 	public static void main(String[] args) {
-//		
+//
 		System.out.println("First continue is executing...........");
-		continue1();		
-		
+		continue1();
+
 		System.out.println("Second continue is executing...........");
 		continueAsJump();
 	}

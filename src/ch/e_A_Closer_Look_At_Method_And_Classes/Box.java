@@ -24,7 +24,7 @@ public class Box {
 	Box(double length) {
 		height = width = depth = length;
 	}
-	
+
 //	Method for calculating volume.
 	double volume() {
 		return (height * width * depth);

@@ -4,13 +4,13 @@ public class DifferentVariations {
 
 	static int x;
 			int y; //y can be accessible in non-static methods directly and in static main method using object.
-	
+
 	public static void main(String args[]) {
-		
+
 		DifferentVariations obj = new DifferentVariations();
 		System.out.println(x+""+obj.y);//As instance of class is created we can access non-static variable in static main method.
 	}
-	
+
 	void method1() {int z=10;System.out.println(x+y+z);}//You can't access the z accept this method cause its life ends beyond this block.
 	void method2() {System.out.println(x+y);}
 	static void method3(){@SuppressWarnings("unused")

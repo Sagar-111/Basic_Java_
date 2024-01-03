@@ -7,7 +7,7 @@ public class CallByRef {
 		a=i;
 		b=j;
 	}
-	
+
 	void meth(CallByRef ob) {
 		ob.a*=2;
 		ob.b/=2;

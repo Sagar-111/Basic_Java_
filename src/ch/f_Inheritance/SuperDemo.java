@@ -41,26 +41,26 @@ public class SuperDemo {
 		BoxWeight1 myDefault = new BoxWeight1();
 		BoxWeight1 myClone = new BoxWeight1(myCube);
 		double vol;
-		
+
 		vol=myBox.vol();
 		System.out.println("Volume of a cuboid box:		"+vol);
 		System.out.println("Weight of a cuboid box:		"+ myBox.weight);
 		System.out.println("=======================================================");
-		
+
 		vol=myCube.vol();
 		System.out.println("Volume of a cube box:		"+vol);
 		System.out.println("Weight of a cube box:		"+ myCube.weight);
 		System.out.println("=======================================================");
-		
+
 		vol=myDefault.vol();
 		System.out.println("Volume of a default box:		"+vol);
 		System.out.println("Weight of a default box:		"+ myDefault.weight);
 		System.out.println("=======================================================");
-		
+
 		vol=myClone.vol();
 		System.out.println("Volume of a obj box:		"+vol);
 		System.out.println("Weght of a obj box:		"+ myClone.weight);
 		System.out.println("=======================================================");
-		
+
 	}
 }

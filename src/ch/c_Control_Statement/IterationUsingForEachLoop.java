@@ -7,7 +7,7 @@ public class IterationUsingForEachLoop {
 	}
 
 	private static void sumOfNum() {
-		
+
 		int[] num= {1,2,3,4,5,6,7,8,9,10};
 		int sum=0;
 		for(int number:num) {
@@ -15,7 +15,7 @@ public class IterationUsingForEachLoop {
 			System.out.println("after adding:	"+ number);
 			System.out.println("Addition is equal to:	"+sum);
 		}
-		
+
 	}
 
 	private static void forEachLoop() {

@@ -6,7 +6,7 @@ public class SimpleMethodReturnParamBoxDemo {
 
 		SimpleMethodReturnParamBox myBox = new SimpleMethodReturnParamBox();
 
-		
+
 		myBox.setDim(10, 11, 12);
 		double vol = myBox.volume();
 		System.out.println("Volume=	"+vol);

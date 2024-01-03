@@ -12,8 +12,8 @@ public class ObjectAsParam {
 		width=objP.width;
 		depth=objP.depth;
 	}
-	
-	
+
+
 //	Constructor when default constructor is called.
 	ObjectAsParam() {
 		height = -1;
@@ -32,7 +32,7 @@ public class ObjectAsParam {
 	ObjectAsParam(double length) {
 		height = width = depth = length;
 	}
-	
+
 //	Method for calculating volume.
 	double volume() {
 		return (height * width * depth);

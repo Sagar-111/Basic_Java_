@@ -7,7 +7,7 @@ class SuperA {
 	void showij() {
 		System.out.println("i, j,  l:	" + i + " " + j+" "+l);
 	}
-	
+
 	int setl(int x) {
 		return l=x;
 	}
@@ -46,7 +46,7 @@ public class SingleInheritance {
 		subObj.j = 20;
 		subObj.k = 30;
 		System.out.println("l is set through subclass object though it is private member of super class l:	"+subObj.setl(60));
-		
+
 
 		subObj.showij();
 		subObj.showk();

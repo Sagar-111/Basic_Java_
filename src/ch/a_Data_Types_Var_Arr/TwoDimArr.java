@@ -19,13 +19,13 @@ public class TwoDimArr {
 			}
 			System.out.println("  ");
 		}
-		
-		
+
+
 //		Adding value in the 3 * 4 loop. Using for-each loop.
 		int m=0;
 //		Using for each loop.
 		for (int[] ele : twod) {
-			
+
 			for (@SuppressWarnings("unused") int ks : ele) {
 				System.out.print(ks=m);
 				System.out.print("  ");
