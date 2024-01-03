@@ -1,6 +1,6 @@
 package ch.f_Inheritance;
 
-//Here, we are using super as super class constructor.
+//Here, we are using super for calling super class constructor.
 //The this keyword refers to the current object instance, whereas the super keyword refers to the superclass of the current class.
 class BoxWeight1 extends Box {
 
