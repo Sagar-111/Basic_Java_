@@ -30,7 +30,7 @@ public class selectionSwitch {
 			default: // If no default statement is added, then on test failure nothing will be there
 						// to executed.
 				System.out.println("The number is gretter that 5");
-				
+
 			}
 
 		}
@@ -105,7 +105,7 @@ public class selectionSwitch {
 		case "three":System.out.println("Three");
 		break;
 		default:System.out.println("No match");
-		
+
 		}
 	}
 

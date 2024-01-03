@@ -46,8 +46,8 @@ public class SelectionIf {
 
 		else
 			season = "Bogus month";
-		
+
 		System.out.println("The June month is in "+season+" season.");
-		
+
 	}
 }

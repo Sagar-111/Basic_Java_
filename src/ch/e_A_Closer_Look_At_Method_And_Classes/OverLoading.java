@@ -7,7 +7,7 @@ public class OverLoading {
 	int x;
 	public static void main(String[] args) {
 //Call to the method will be dynamic. That is depending on the arguments passed to the invoked method the method will differentiated by the compiler at run time and respective method will be called though they have same name.
-		
+
 //		If the arguments do not match with the compiler use the 'Automatic type conversion' to resolve the arguments.
 
 		testLoading();

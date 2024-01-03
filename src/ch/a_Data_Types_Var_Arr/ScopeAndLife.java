@@ -6,7 +6,7 @@ public class ScopeAndLife {
 
 	static int x = 12;
 	int z = 1561;
-	
+
 	static {
 		System.out.println("static block intiated at very first");
 	}
@@ -29,7 +29,7 @@ public class ScopeAndLife {
 		obj.z = 4; // as z is accessible through an object, y can't be accessed.
 		obj.scopeOfVariable(15); // non-static method call it by obj, if it is static call it directly wit class name.
 		System.out.println("x   manipulated " + x);
-		
+
 	}
 
 }

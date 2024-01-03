@@ -24,10 +24,8 @@ class SubclassB extends Subclass {// extends SuperClass-- if try to do so there 
 public class UsingFinal {
 
 //	Use of final to prevent overloading and inheritance.
-	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
 
-		Subclass name = new Subclass();
-		name.show();
+		Subclass.show();
 	}
 }

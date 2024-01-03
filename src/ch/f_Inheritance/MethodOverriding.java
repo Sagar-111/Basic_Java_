@@ -13,6 +13,7 @@ class Bb extends Aa {
 
 	int k = 49;
 
+	@Override
 	void show() {
 		super.show();//If you want to invoke the overridden method.
 		System.out.println("k;	"+k);

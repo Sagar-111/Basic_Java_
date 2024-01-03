@@ -22,6 +22,7 @@ class Rect extends Diagram {
 		super(a, b);
 	}
 
+	@Override
 	double area() {
 		System.out.println("The figure is Rectangle and it's area is;	");
 		return dim1 * dim2;
@@ -35,6 +36,7 @@ class Tring extends Diagram {
 		super(a, b);
 	}
 
+	@Override
 	double area() {
 		System.out.println("The figure is a Triangle and it's area is:	");
 		return dim1 * dim2/2;
@@ -46,18 +48,18 @@ public class AbstractEx {
 	public static void main(String[] args) {
 
 //		Diagram name = new Diagram(10,20); Show error-cannot instantiated as it is an abstract class.
-		
+
 		Rect rect = new Rect(10, 20);
 		Tring tri= new Tring(12, 10);
-		
+
 		Diagram dig;	//This is just the reference not instantiation.
-		
+
 		dig=rect;
 		System.out.println(dig.area());
-		
+
 		dig=tri;
 		System.out.println(dig.area());
-		
+
 	}
 
 }

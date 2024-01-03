@@ -35,16 +35,16 @@ public class IterationUsingWhile {
 	private static void midpoint() {
 
 		int i=100, j=200;
-		
+
 		while(++i<--j);//Loop without body.
-		
+
 		System.out.println("The midpoint is i/j   "+i);
 	}
-	
-	
+
+
 	private static void doWhileMenu() {
-		
-		
-		
+
+
+
 	}
 }

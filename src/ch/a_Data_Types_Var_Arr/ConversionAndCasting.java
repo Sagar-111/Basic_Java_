@@ -60,15 +60,15 @@ public class ConversionAndCasting {
 		System.out.println("boolean    "+boolValue);
 
 		char ch = 'A';
-		String charString = Character.toString(ch);				
+		String charString = Character.toString(ch);
 		System.out.println("Char  "+ch);
 		System.out.println("String    "+charString);
-		
+
 		String lowerCase = "hello";
 		String upperCase = lowerCase.toUpperCase();
 		System.out.println("lowerCase  "+lowerCase);
 		System.out.println("upperCase    "+upperCase);
-		
+
 		String upperCase1 = "HELLO";
 		String lowerCase2 = upperCase1.toLowerCase();
 		System.out.println("upperCase1  "+upperCase1);
