@@ -1,5 +1,6 @@
 package ch.f_Inheritance;
 
+// Using super for accessing super class member to avoid hiding by the other member of the sub-class with the same name.
 class A {
 
 	int i = 25;
@@ -17,8 +18,8 @@ class B extends A {
 	}
 
 	void show() {
-		method();
-		super.method();	
+		method();//This is to show that one method can call other method directly.
+		super.method();	//Accessing super class method although it is overridden.
 		System.out.println("This i is from sub class:	" + i);
 		System.out.println("This is is from super class:	" + super.i);
 		System.out.println("Sum of both i's:	" + (i + super.i));
