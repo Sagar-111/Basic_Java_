@@ -1,6 +1,6 @@
-package someBasicProgramms;
+package frequentlyAskedProg;
 
-public class ASwappingNumbers {
+public class A_SwappingNumbers {
 
 	public static void main(String[] args) {
 		int a = 12, b = 15;
@@ -36,5 +36,31 @@ public class ASwappingNumbers {
 		a=a^b;
 		*/
 		System.out.println("Numbers After swapping:		" + a + "	" + b);
+		mySwap();
+	}
+
+	private static void mySwap() {
+		int x=20;
+		int y=30;
+
+//		Using third variable
+		int t=x;
+
+		x=y;
+		y=t;
+		System.out.println("x=  "+x+"  y="+y);
+
+//		Using +/- Operator
+		x=x+y;
+		y=x-y;
+		x=x-y;
+		System.out.println("x=  "+x+"  y="+y);
+
+//		Using * and /
+		x=x*y;
+		y=x/y;
+		x=x/y;
+		System.out.println("x=  "+x+"  y="+y);
+
 	}
 }
