@@ -1,10 +1,6 @@
-package prcts;
+package frequentlyAskedProg;
 
-public class Practice {
-
-	static {
-		System.out.println("Static bloc");
-	};
+public class V_BubbleSort {
 
 	public static void main(String[] args) {
 
@@ -12,17 +8,18 @@ public class Practice {
 
 		display(arr);
 		System.out.println(" ");
-		for (int j = 0; j < arr.length - 1; j++) {
-			
-			for (int i = 0; i < arr.length - 1; i++) {
-				if (arr[i] > arr[i + 1]) {//14 8
-					int temp = arr[i];//8
-					arr[i] = arr[i + 1];//8
-					arr[i + 1] = temp;//
-				}
 
+		for (int i = 0; i < arr.length - 1; i++) {
+
+			for (int j = 0; j < arr.length - 1; j++) {
+				if (arr[j] > arr[j + 1]) {
+					int temp = arr[j];
+					arr[j] = arr[j + 1];
+					arr[j + 1] = temp;
+				}
 			}
 		}
+		System.out.println("After bubble sorting ");
 		display(arr);
 
 	}

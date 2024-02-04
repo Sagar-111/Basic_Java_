@@ -4,12 +4,12 @@ public class Array {
 
 	public static void main(String[] args) {
 		int[] days_of_month;		//Declaration of array. type[] varName;
-		int feb = 2015;
+		int year = 2015;
 		days_of_month=new int[12];	//Initialization using new. var_name=new type[size];
 
 		days_of_month[0]=30;
 
-		if ((feb%4)==0) {days_of_month[1]=29;}
+		if ((year%4)==0) {days_of_month[1]=29;}
 		else { days_of_month[1]=28;}
 
 		days_of_month[2]=31;
