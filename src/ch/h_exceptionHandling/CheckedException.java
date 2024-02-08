@@ -6,12 +6,10 @@ import java.io.FileReader;
 public class CheckedException {
 
 	public static void main(String[] args) throws FileNotFoundException {
-		readFile("adssdg.txt");
+		readFile("C:\\Users\\sgrch\\OneDrive\\Desktop\\coll.jpg");
 	}
 
 	private static void readFile(String path) throws FileNotFoundException{
-		FileReader fr=new FileReader(path);
-		
+		FileReader fr=new FileReader(path);		
 	}
 }
-
