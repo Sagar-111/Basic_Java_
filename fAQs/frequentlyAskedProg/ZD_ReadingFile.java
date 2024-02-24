@@ -12,7 +12,7 @@ public class ZD_ReadingFile {
 	public static void main(String[] args) throws IOException, FileNotFoundException {
 
 //		Approach_1
-		FileReader fileToRead = new FileReader("C:\\Users\\sgrch\\OneDrive\\Desktop\\NewFile.txt");
+		FileReader fileToRead = new FileReader("C:/Users/sgrch/OneDrive/Desktop/NewText.txt");
 
 		BufferedReader br = new BufferedReader(fileToRead);
 
@@ -26,7 +26,7 @@ public class ZD_ReadingFile {
 
 //		Approach_2
 
-		File file = new File("C:\\Users\\sgrch\\OneDrive\\Desktop\\NewFile.txt");
+		File file = new File("C:/Users/sgrch/OneDrive/Desktop/NewText.txt");
 
 		Scanner sc = new Scanner(file);
 
@@ -36,7 +36,7 @@ public class ZD_ReadingFile {
 		
 //		OR
 		
-//		sc.useDelimiter("\\Z");
+//		sc.useDelimiter("/Z");
 //		System.out.println(sc.next());
 		sc.close();
 	}

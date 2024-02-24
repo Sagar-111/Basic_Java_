@@ -6,21 +6,20 @@ import java.io.IOException;
 
 public class ZC_FileWritter {
 
-	public static void main(String[] args) throws IOException{
+	public static void main(String[] args) throws IOException {
 
-		FileWriter file = new FileWriter("C:\\Users\\sgrch\\OneDrive\\Desktop\\NewFile.txt");
+		FileWriter fw = new FileWriter("C:/Users/sgrch/OneDrive/Desktop/NewText.txt");
+//		FileWriter fw = new FileWriter("C://Users/sgrch/OneDrive/Desktop/NewText.txt", true);	if you want to keep previously written line as it is.
 		
-		BufferedWriter bw = new BufferedWriter(file);
-		
-		bw.write("The first line entered to the file.");
-		bw.write("\nUse java's escape sequensec to write in a file but you don't need to write easy in java.");
-		bw.write("\nYou just have to write data to the file by means of code");
-		bw.write("\nFinished writting in the files");
-		bw.write("\n");
-		bw.write("\nUnless you close the BufferedWriter the file will not get created or modified.");
-		
+		BufferedWriter bw = new BufferedWriter(fw);
+
+        // Append new lines to the file
+		bw.write("hi hello how are you");
+		bw.write("go to heaven");
+		bw.write("how are you now");
+
 		bw.close();
-		
+
 	}
 
 }
