@@ -4,18 +4,22 @@ public class IncrDecr {
 
 	public static void main(String[] args) {
 
-		int a=2;	int d;
-		d=a++;		//is equivalent to two statement first 	d=a; 		then a=a+1;
+		int a = 5;
+		int b = a++;  // b gets the value of a (5), then a is incremented
+//		Equivalent to:
+//		b = a;
+//		a = a + 1;
+		System.out.println("a = " + a + ", b = " + b);  // Output: a = 6, b = 5
 
 
-		int b=3;	int c;
-		c=++b;		//is equivalent to two statement first  b=b+1;		then  c=b;
 
-		System.out.println("================Demonstration of operands in prefix and suffix==============");
-		System.out.println("a:	"+a);
-		System.out.println("d:	"+d);
-		System.out.println("b:	"+b);
-		System.out.println("c:	"+c);
+		int x = 5;
+		int y = ++x;  // a is incremented first, then y gets the incremented value of x
+//		Equivalent to
+//		x = x + 1;
+//		y = x;
+		System.out.println("x = " + x + ", y = " + y);  // Output: x = 6, y = 6
+
 		
 	}
 

@@ -1,12 +1,10 @@
 package frequentlyAskedProg;
 
-import java.util.HashSet;
-
 public class B_ReverseNumber {
 
 	public static void main(String args[]) {
 
-		String str = "Sagar";
+//		String str = "Sagar";
 
 		int muInt = 12345;
 

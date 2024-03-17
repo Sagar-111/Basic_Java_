@@ -24,7 +24,8 @@ public class T_LinearSearchArray {
 
 		if (flag == true)
 			System.out.println("Element found at "+i);
-		else System.out.println("Element do not found");
+		else
+			System.out.println("Element do not found");
 
 	}
 

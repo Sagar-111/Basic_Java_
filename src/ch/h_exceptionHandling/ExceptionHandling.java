@@ -8,7 +8,8 @@ public class ExceptionHandling {
 		try {
 			int myInt=Integer.parseInt("12");
 			
-			System.out.println("The statement after Occurence of the exception will not excute IF Exception occures");
+			System.out.println("The statement after Occurence of the exception will not excute IF Exception occures"+myInt
+					);
 		}
 //		If there can be more than one kind of exception expected then you cab put multiple catch block to catch this different types.
 //		catch(NumberFormatException nfe){
