@@ -13,26 +13,30 @@ public class R_MaxAndMinFromArray {
 
 		display(arr);
 		System.out.println(" ");
-		
-		int max=arr[0];
+
+		int max = arr[0];
 
 //		Finding Maximum value number. Make an Assumption.
 		for (int i = 0; i < arr.length; i++) {
 
-			if(max<arr[i]) {max=arr[i];}
-			
+			if (max < arr[i]) {
+				max = arr[i];
+			}
+
 		}
-		System.out.println("The Biggest Number is:	"+max);
-		
-		int min=arr[0];
+		System.out.println("The Biggest Number is:	" + max);
+
+		int min = arr[0];
 
 //		Finding Minimum value number. Make an Assumption.
 		for (int i = 0; i < arr.length; i++) {
 
-			if(min>arr[i]) {min=arr[i];}
-			
+			if (min > arr[i]) {
+				min = arr[i];
+			}
+
 		}
-		System.out.println("The Smallest Number is:	"+min);
+		System.out.println("The Smallest Number is:	" + min);
 
 	}
 

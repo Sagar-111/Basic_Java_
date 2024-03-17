@@ -9,7 +9,7 @@ public class J_FibnocciSEries {
 		Scanner sc =new Scanner(System.in);
 		
 		System.out.print("Entered initial value=");
-		int initialNalue = sc.nextInt();	
+		int initialValue = sc.nextInt();	
 		
 		System.out.print("First increment value=");
 
@@ -20,10 +20,10 @@ public class J_FibnocciSEries {
 		System.out.println("First 10 digit of Fibnocci series.......");
 		int lenthOfSeries=0;
 		for(lenthOfSeries=0; lenthOfSeries<=11; lenthOfSeries++ ) {
-			int num=incr+initialNalue;
+			int num=incr+initialValue;
 			System.out.print(num+" ");
-			incr=initialNalue;
-			initialNalue=num;
+			incr=initialValue;
+			initialValue=num;
 		}
 		
 		

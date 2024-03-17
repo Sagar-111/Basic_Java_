@@ -1,2 +1,0 @@
-package ch.d_Introducing_Classes;
-/*Garbage Collection:Since java allocates memory to the object dynamically. And it is freed automatically, through the process garbage collection which happens sporadically(adhun-madhun) during execution of your program.When no reference to that object exists, that object is assumed to be no longer needed and the memory occupied by the object is reclaimed.*/

@@ -33,12 +33,24 @@ public class ZD_ReadingFile {
 		while (sc.hasNextLine()) {
 			System.out.println(sc.nextLine());
 		}
-		
+
 //		OR
-		
+
 //		sc.useDelimiter("/Z");
 //		System.out.println(sc.next());
-		sc.close();
+		
+//		To read each word from the file on by one.
+
+		File f = new File("C:\\Users\\sgrch\\OneDrive\\Desktop\\NewText.txt");
+
+		Scanner sc1 = new Scanner(f);
+
+		while (sc1.hasNext()) {
+			String word = sc1.next();
+			System.out.println(word);
+		}
+
+		sc1.close();
 	}
 
 }

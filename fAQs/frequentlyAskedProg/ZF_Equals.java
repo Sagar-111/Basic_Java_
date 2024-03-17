@@ -1,4 +1,4 @@
-package prcts;
+package frequentlyAskedProg;
 
 public class ZF_Equals {
 

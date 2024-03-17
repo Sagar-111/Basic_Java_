@@ -14,18 +14,18 @@ public class K_PrimeNumber {
 			System.out.println("Not prime");
 
 //		Approach 1
-		int countOfDevisor = 0;
-
-		for (int i = 1; i <= num; i++) {
-
-			if (num % i == 0)
-				countOfDevisor++;
-		}
-
-		if (countOfDevisor == 2)
-			System.out.println("Is Prime Number");
-		else
-			System.out.println("Is NOT Prime Number");
+//		int countOfDevisor = 0;
+//
+//		for (int i = 1; i <= num; i++) {
+//
+//			if (num % i == 0)
+//				countOfDevisor++;
+//		}
+//
+//		if (countOfDevisor == 2)
+//			System.out.println("Is Prime Number");
+//		else
+//			System.out.println("Is NOT Prime Number");
 
 //		Approach 2 from McGrawHill
 
