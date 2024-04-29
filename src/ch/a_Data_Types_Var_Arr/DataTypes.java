@@ -25,7 +25,9 @@ public class DataTypes {
 		System.out.println("char		"+myChar);
 		System.out.println("boolean		"+myBool);
 		
-		DataTypes.number1=0;	
+		DataTypes.number1=0;
+//		DataTypes.number1=2;
+//		DataTypes.number1=3;
 		//This is the class variable as it is declared static it belongs to class itself rather than the object(Instance) of a class
 //		class variables (also known as static variables) are automatically initialized with default values if you don't explicitly assign them a value.
 		/*
@@ -41,6 +43,8 @@ public class DataTypes {
 		DataTypes dv = new DataTypes();
 		
 		dv.number=90;
+//		dv.number=26;
+//		dv.number=23;
 		/*
 		 * Instance variables are variables declared in a class but outside of any
 		 * method, constructor, or block. They belong to individual instances (objects)
