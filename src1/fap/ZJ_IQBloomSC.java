@@ -1,4 +1,4 @@
-package prcts;
+package fap;
 
 import java.util.Scanner;
 
