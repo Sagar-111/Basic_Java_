@@ -3,6 +3,8 @@ package prcts;
 import java.util.HashSet;
 
 public class StringPermutation {
+//	Combination of n element selecting r at a time. nCr = n! / r! * (n - r)!
+//	Permutation of n element selecting r at a time. with repetition n^r, without repetition nPr = n! / (n - r)!
 
 	public static void main(String[] args) {
 		String input = "abc";
